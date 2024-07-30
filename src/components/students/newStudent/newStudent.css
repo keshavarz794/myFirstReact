@@ -1,0 +1,32 @@
+.newstudent{
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    direction: rtl;
+    margin-top: 75px;
+}
+.newstudent label{
+    display: block;
+    font-weight: bold;
+    margin: 5px auto;
+}
+.newstudent input{
+    width: 80%;
+    height: 30px;
+    direction: rtl;
+    padding: 5px;
+    border: 1px solid #eee;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px #ccc;
+
+}
+input[type=number],input[type=email]{
+    direction: ltr;
+}

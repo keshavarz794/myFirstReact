@@ -1,0 +1,24 @@
+.button{
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-weight: bold;
+     
+    color: #fcfafa;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.danger{
+    background-color: red;
+}
+.sucsses{
+    background-color: green;
+}
+.edit{
+    background-color: rgb(238, 121, 11);
+}

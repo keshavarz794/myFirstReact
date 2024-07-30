@@ -1,0 +1,9 @@
+.hunburger{
+    width: 12px;
+    border-bottom: 2px solid black;
+    margin-bottom: 2px;
+}
+
+@media(width>500px){
+    .hunburger{display: none;}
+}

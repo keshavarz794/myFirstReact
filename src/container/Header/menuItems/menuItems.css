@@ -1,0 +1,18 @@
+.menuItems{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+    height: 100%;
+    list-style: none;
+}
+
+@media(width<499px){
+    .menuItems{
+        flex-flow: column;
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+

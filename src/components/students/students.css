@@ -1,0 +1,9 @@
+.students-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 10px;
+    width: 80%;
+    background-color: black;
+
+}

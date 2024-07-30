@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 90%;
+    margin: 1rem auto;
+    box-sizing: border-box;
+
+}
+.header img{
+    /* margin-top: 1rem; */
+    width: 90%;
+    height: 400px;
+    
+    
+
+
+}
+
+.header img :hover{
+    filter: blur(8px);
+}
+    
+   
+    
+    
+
+
+.header-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:-400px;
+    color: white;
+    
+
+
+}
+.header-items h1:hover{
+    color: rgb(224, 204, 24);
+    border-bottom: 1px solid white;
+    
+
+
+}
+.homePage-text{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 2rem auto;
+    background-color: #ececec;
+    box-shadow: 1px 2px 5px #050505;
+    
+    box-sizing: border-box;
+    
+    
+}
+
+.homePage-text p{
+    padding: 1rem;
+}
+
+
